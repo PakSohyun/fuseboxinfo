@@ -1,0 +1,19 @@
+section.care{display: inline-block; width: 100%; padding: 25px 35px; background-color: rgb(255, 246, 229); text-align: center;}
+section.care div p{font-weight: 400; color: rgb(232, 122, 12); vertical-align: middle;}
+section.care div p:before{content: '!'; clear: both; display: inline-block; width: 40px; height: 40px; border-radius: 100px; background-color: rgb(246, 188, 130); color: rgb(255, 246, 229); text-align: center; font-size: 30px; font-weight: 500; line-height: 40px; margin-right: 15px; vertical-align: sub;}
+
+.fuses_position{}
+.fuses_position .position{margin-top: 20px;}
+
+.position{display: inline-block; width: 100%; padding: 25px 35px; background-color: rgb(214, 239, 255); text-align: center;}
+.position div p{font-weight: 400; color: rgb(12, 96, 232); vertical-align: middle;}
+
+section div ul{border: 1px solid #d4d4d4; border-width: 1px 0 1px 0; margin: 0;}
+section div ul li{padding: 50px 0;}
+section div ul li:not(:last-of-type){border: 1px solid #d4d4d4; border-width: 0 0 1px 0;}
+section div ul li a{display: flex; align-items: center;}
+section div ul li a .img_box{width: 18%;}
+section div ul li a .img_box img{width: fit-content;}
+section div ul li a dl{display: inline-block; width: 82%;}
+section div ul li a dl dt{font-size: 18px; color: darkblue;}
+section div ul li a dl dt span{font-weight: 500; color: darkblue;}

@@ -1,0 +1,12 @@
+section:nth-of-type(2) .img_box{margin-bottom: 40px;}
+section:first-of-type ul{list-style: disc;}
+section:last-of-type .stroke_box{margin-top: 40px;}
+.maker div.stroke_box{padding: 40px 40px 0px 40px;}
+.maker div.stroke_box div ul{margin: 0;} 
+.maker div .maker_list ul{display: flex; flex-wrap: wrap; justify-content: space-between; list-style: none;}
+.maker div .maker_list ul li{display: inline-block; margin-bottom: 40px;}
+.maker div .maker_list ul li figure{}
+.maker div .maker_list ul li figure a{display: inline-block;}
+.maker div .maker_list ul li figure a .img_box{margin-bottom: 0;}
+.maker div .maker_list ul li figure a .img_box img{width: 90%;}
+.maker div .maker_list ul li figure a figcaption{font-size: 15px; color: darkblue;}
